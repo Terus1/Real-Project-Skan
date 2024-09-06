@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="authorization.css">
+    <link rel="stylesheet" href="search.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+
+<header class="header">
+
+    <div class="logo-header">
+        <img src="media/logo-header.svg" alt="Логотип">
+    </div>
+
+    <div class="navigation">
+        <ul class="nav-list">
+            <li class="list-item"><a class="list-link" href="#">Главная</a></li>
+            <li class="list-item"><a class="list-link" href="#">Тарифы</a></li>
+            <li class="list-item"><a class="list-link" href="#">FAQ</a></li>
+        </ul>
+    </div>
+
+    <div class="my-office">
+        <a class="sign-up" href="#">Зарегистрироваться</a>
+        <img src="media/stick.svg" alt="stick">
+        <button class="my-office-button"><span class="entrance">Войти</span></button>
+    </div>
+</header>
+
+<main class="main">
+
+    <div class="both-parts">
+
+        <div class="left-part">
+            <div class="head">
+                <p class="text-head">Найдите необходимые <br>
+                    данные в пару кликов.</p>
+                <p class="hint">Задайте параметры поиска. <br>
+                    Чем больше заполните, тем точнее поиск</p>
+            </div>
+
+            <div class="search-form">
+                <div class="left-part-search-form">
+                    <div class="INN">
+                        <p class="text-INN">ИНН компании*</p>
+                        <input class="input-INN" type="text" placeholder="10 цифр">
+                    </div>
+
+                    <div class="tonality">
+                        <p class="text-tonality">Тональность</p>
+                        <select class="select-tonality" name="tonalities">
+                            <option class="option-tonality" value="">позитивная</option>
+                            <option class="option-tonality" value="">негативная</option>
+                            <option class="option-tonality" value="">любая</option>
+                        </select>
+
+                    </div>
+
+                    <div class="documents">
+                        <p class="text-documents">Количество документов в выдаче*</p>
+                        <input class="input-documents" type="number" placeholder="От 1 до 1000" min="1" max="1000">
+                    </div>
+
+                    <div class="range">
+                        <p class="range-text">Диапазон поиска*</p>
+                        <input class="start-date" type="date" placeholder="Дата начала">
+                        <input class="end-date" type="date" placeholder="Дата конца">
+                    </div>
+                </div>
+
+                <div class="right-part-search-form">
+
+                    <div class="checkboxes">
+                        <label class="text-label-checkboxes" for="">
+                            <input class="input-checkbox" type="checkbox">
+                            Признак максимальной полноты
+                        </label>
+                        <label class="text-label-checkboxes" for="">
+                            <input class="input-checkbox" type="checkbox">
+                            Упоминания в бизнес-контексте
+                        </label>
+                        <label class="text-label-checkboxes" for="">
+                            <input class="input-checkbox" type="checkbox">
+                            Главная роль в публикации
+                        </label>
+                        <label class="text-label-checkboxes" for="">
+                            <input class="input-checkbox" type="checkbox">
+                            Публикации только с риск-факторами
+                        </label>
+                        <label class="text-label-checkboxes" for="">
+                            <input class="input-checkbox" type="checkbox">
+                            Включать технические новости рынков
+                        </label>
+                        <label class="text-label-checkboxes" for="">
+                            <input class="input-checkbox" type="checkbox">
+                            Включать анонсы и календари
+                        </label>
+                        <label class="text-label-checkboxes" for="">
+                            <input class="input-checkbox" type="checkbox">
+                            Включать сводки новостей
+                        </label>
+                    </div>
+
+
+                    <div class="div-button-search">
+                        <button disabled class="button-search">Поиск</button>
+                        <p class="explanation">* Обязательные к заполнению поля</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="right-part">
+
+
+
+            <div class="top-pictures">
+
+                <div class="div-green-leaf">
+                    <img class="green-leaf" src="media/green-leaf.svg" alt="green-leaf">
+                </div>
+
+                <div class="div-folders">
+                    <img class="folders" src="media/folders.svg" alt="folders">
+                </div>
+            </div>
+
+
+            <div class="div-man-and-rocket">
+                <img src="media/man-and-rocket.svg" alt="man-and-rocket">
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+</main>
+
+<footer class="footer">
+
+    <div class="logo-footer">
+        <img src="media/logo-footer.svg" alt="Логотип">
+    </div>
+
+    <div class="info-address">
+        <p class="footer-info">г. Москва, Цветной б-р, 40 <br>
+            +7 495 771 21 11 <br>
+            info@skan.ru
+        </p>
+
+        <p class="footer-info">Copyright. 2022</p>
+    </div>
+
+</footer>
+
+
+
+
+
+</body>
+</html>

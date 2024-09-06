@@ -1,0 +1,136 @@
+.div-people-carrying-key {
+    text-align: center;
+}
+
+.div-lock {
+    position: absolute;
+    top: -60px;
+    right: 400px;
+    opacity: 100%;
+}
+
+.text-authorization {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Ferry sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.container-entrance {
+    position: relative;
+    width: 429px;
+    height: 523px;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.both-parts {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 550px 0 550px;
+}
+
+.log-tab {
+    color: #029491;
+    font-size: 16px;
+    font-family: Inter sans-serif;
+    /*cursor: pointer;*/
+    text-decoration: none;
+}
+
+.reg-tab {
+    color: #C7C7C7;
+    font-size: 16px;
+    font-family: Inter sans-serif;
+    text-decoration: none;
+    /*cursor: pointer;*/
+}
+
+.hr-log-tab {
+    color: #C7C7C7;
+}
+
+.log-reg-tabs {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-log-or-number {
+    font-size: 16px;
+    font-family: Inter sans-serif;
+    color: #949494;
+}
+
+.text-password {
+    font-size: 16px;
+    font-family: Inter sans-serif;
+    color: #949494;
+    margin-top: 0;
+}
+
+.input-log-or-number {
+    width: 379px;
+    height: 43px;
+    margin-bottom: 20px;
+}
+
+
+.body-entrance {
+    padding-left: 25px;
+    margin-bottom: 30px;
+}
+
+.div-button-entrance {
+    /*text-align: center;*/
+    margin-bottom: 15px;
+}
+
+.button-entrance {
+    width: 379px;
+    height: 59px;
+    background: #5970FF;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Inter sans-serif;
+    border: none;
+    color: white;
+    text-align: center;
+    /*cursor: pointer;*/
+}
+
+.button-entrance:hover {
+    cursor: pointer;
+}
+
+.button-entrance:disabled, .button-entrance:hover:disabled {
+    opacity: 50%;
+    cursor: not-allowed;
+}
+
+.recover-password {
+    text-align: center;
+    color: #5970FF;
+    margin-bottom: 30px;
+}
+
+
+
+/*==========================================================LOG-IN-USING==============================================*/
+
+.log-in-using {
+    margin-bottom: 39px;
+}
+
+.text-log-in-using {
+    color: #949494;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Inter sans-serif;
+}
+
+.site-button {
+    margin-right: 10px;
+    cursor: pointer;
+}
